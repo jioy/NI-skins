@@ -2,17 +2,17 @@
 
 
 <div align="center">
-<img src="assets/C1.png" height="460"> 
+<img src="assets/Fig1.png" height="460"> 
 </br>
 
 
-<img src="assets/G1.gif" height="200"> 
-<img src="assets/G3.gif" height="200"> 
+<img src="assets/M1.gif" height="200"> 
+<img src="assets/M3.gif" height="200"> 
 </br>
 
 
-<img src="assets/G4.gif" height="200"> 
-<img src="assets/G5.gif" height="200"> 
+<img src="assets/M4.gif" height="200"> 
+<img src="assets/M8.gif" height="200"> 
 </br>
 
 <br>
@@ -31,6 +31,14 @@
 Welcome to the **NI-skins** repository, a cutting-edge project that introduces a large-scale, neural-hierarchical iontronic skin (NI-skin) for robotic applications. Our system emulates the hierarchical processing architecture of the human tactile sensory system, offering ultra-high spatial and temporal resolution for fine tactile perception in robots. 
 
 This novel skin technology integrates over 10,000 sensing units and enables the robot to perform tasks with remarkable precision, such as dexterous manipulation of delicate objects and proactive injury avoidance through nociceptive sensing. The NI-skin system uses position-encoded frequency-modulation for parallel signal transmission, minimizing latency and signal crosstalk while maintaining high spatiotemporal resolution (800 µm and 10.6 ms).
+
+
+<div align="center">
+<img src="assets/M5.gif" height="200"> 
+<img src="assets/M7.gif" height="200"> 
+</br>
+</div>
+
 
 ## Key Features:
 - **Neural-Hierarchical Architecture**: Mimicking the human sensory system with receptor, spinal, and cognitive layers for efficient tactile data processing.
@@ -98,12 +106,28 @@ Please download all data & codes and then unzip all the folders and place them i
 ### Construction of dataset
 Grasping Dataset: this dataset recorded tactile pressure data from the robotic hand’s NI-skin during the grasping of 10 object categories, with each object grasped 4 times. Data was collected at 94 Hz, with a grasp duration of 3-5 s, covering tactile responses from 10 daily items.
 
+
+<div align="center">
+<img src="assets/Fig2.png" height="460"> 
+</br>
+</div>
+
+
+
 Touch Dataset: This dataset captured dynamic pressure data from 10 different touch gestures applied to the large-area NI-skin on the robotic body. Each gesture lasted 3-10 s and was performed by four subjects, with data being recorded at 94 Hz. 
+
+<div align="center">
+<img src="assets/Fig3.png" height="460"> 
+</br>
+</div>
 
 
 Pain-perception Dataset: This dataset recorded tactile responses from the NI-skins on robotic fingers under 5 different sharpness levels (controlled by a power-law index), defined as varying pain degree (0-100%). Data was collected at 94 Hz under a constant force of ~500 mN, with each pain level being recorded for 3-5 seconds.
 
-
+<div align="center">
+<img src="assets/Fig4.png" height="460"> 
+</br>
+</div>
 
 
 
