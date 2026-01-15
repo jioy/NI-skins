@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package Claw;
+
+message Motor
+{
+    float angle = 1;
+    float angle_percent = 2;
+    float speed = 3;
+    float iq = 4;
+    int32 temperature = 5;
+}
+
+message Claw
+{
+    float timestamp = 1;
+    float angle = 2;
+    Motor motor = 3;
+}

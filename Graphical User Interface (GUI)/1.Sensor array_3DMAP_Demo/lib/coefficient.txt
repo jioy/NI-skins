@@ -1,0 +1,3 @@
+Load ratio parameter:
+0.01
+//48x48 0.001
